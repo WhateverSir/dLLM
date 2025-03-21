@@ -2,10 +2,10 @@
 Diffusion Large Language Model
 ## MDLM：研究型dLLM的突破
 MDLM（Masked Diffusion Language Models）是扩散语言模型的一种研究实现，其核心是基于掩盖的离散扩散模型，采用紧凑的Rao-Blackwellized目标函数，无需复杂的CTMC理论。
-![image](https://github.com/user-attachments/assets/66fc0b8c-4c4f-4b08-96be-4be25a6a9f5c)
+![result](MDLM.gif)
 ## Mercury：商业化dLLM的里程碑
 Mercury Coder采用粗到细（coarse-to-fine）的生成方式，与自回归模型的左到右顺序生成不同。其生成速度可达每秒1000个token，在NVIDIA H100 GPU上比传统LLM快5-10倍。早期基准测试显示，其质量可与GPT-4o Mini和Claude 3.5 Haiku相当，同时成本更低。
-![image](https://github.com/user-attachments/assets/6c138e5f-b6aa-414c-8930-b4e4fde9fc27)
+![result](Mercury.gif)
 
 示例能帮助你理解如何构建和训练一个dLLM。
 ## 示例关键步骤说明
